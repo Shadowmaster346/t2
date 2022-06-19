@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: fwilhe2/setup-kotlin@main
       - run: kotlinc src/main/kotlin/Main.kt -include-runtime -d /tmp/hello.jar; java -jar /tmp/hello.jar
-      - run: kotlin myScript.main.kts
+      - run: alloc
